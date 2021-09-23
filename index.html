@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app">
+        <form action="#" class="form-register">
+            <h2 class="form-register__title">User Detail</h2>
+            <!-- add validate to invalidate -->
+            <div class="from-register__infor ">
+                <p class="form-register__content">First Name
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <input type="text" placeholder="Enter first name" name="fname" class="from-register__detail">
+                <div class="form-register__containter">
+                    <span class="text-error"></span>
+                </div>
+            </div>
+    
+            <div class="from-register__infor">
+                <p class="form-register__content">Last Name
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <input type="text" placeholder="Enter last name" name="lname" class="from-register__detail">
+                <div class="form-register__containter">
+                    <span class="text-error"></span>
+                </div>
+            </div>
+    
+            <div class="from-register__infor ">
+                <p class="form-register__content">Email
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <div class="form-register__containter ">
+                    <input type="email" placeholder="Enter email" 
+                name="email" class="from-register__detail">
+                <span class="text-error">Vui lòng nhập trường này</span>
+                </div>
+                
+            </div>
+    
+            <div class="from-register__infor">
+                <p class="form-register__content">User Name
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <input type="text" placeholder="Enter user name" 
+                name="userName" class="from-register__detail">
+                 <div class="form-register__containter">
+                     <span class="text-error"></span>
+                 </div>
+            </div>
+    
+            <div class="from-register__infor">
+                <p class="form-register__content">Password
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <input type="password" placeholder="Enter password"
+                 name="pass" class="from-register__detail">
+                 <div class="form-register__containter">
+                     <span class="text-error"></span>
+                 </div>
+                </div>
+    
+            <div class="from-register__infor">
+                <p class="form-register__content">Confirm Password
+                    <span class="form-register__content-symbol">*</span>
+                </p>
+                <input type="password" placeholder="Enter password again"
+                 name="confirmPass" class="from-register__detail">
+                 <div class="form-register__containter">
+                     <span class="text-error"></span>
+                 </div>
+                </div>
+            <input type="submit" value="Register" class="form-register__btn">
+        </form>
+        <h2 class="user-list">User List</h2>
+    </div>
+    
+
+</body>
+</html>
