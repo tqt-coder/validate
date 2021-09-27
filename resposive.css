@@ -1,0 +1,26 @@
+/* mobile */
+@media screen and (max-width: 73.9rem) {
+    .from-register__infor{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+    }
+    .form-register__containter{
+        width: 100%;
+    }
+    .from-register__detail{
+        margin: 1rem 0;
+        padding: 1.2rem 0.8rem;
+        width: 100%;
+    }
+    .form-register__btn{
+        margin: 1rem auto;
+        width: 90%;
+        height: 4.4rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 74rem) and (max-width: 102.3rem){
+
+}
